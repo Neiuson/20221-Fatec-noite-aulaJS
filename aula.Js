@@ -1,3 +1,64 @@
+
+
+const nomes = [ "ana maria", "antonio", "rodrigo", "alex", "cristina"]
+
+const apenasA = nomes.filter((n)=>{
+    return n.startsWith("A")
+});
+console.log(apenasA)
+
+
+
+
+
+
+
+
+const nomes = [ "ana maria", "antonio", "rodrigo", "alex", "cristina"]
+//arrow function
+() => {}
+
+    function filter (funcao){
+        funcao()
+    }
+
+const apenasA = nomes.filter();
+
+
+//const numeros = [1, 2]
+//console.log(numeros.length)
+//numeros[4] = 2
+//console.log(numeros.length)
+
+
+
+
+
+
+//const numeros = [1, 2]
+//numeros [0] = 2
+ //console.log(numeros)
+
+
+
+
+//int v [10]
+
+//const v1 = []
+//console.log(v1.length)
+
+//v1 [0] = 3.4
+//v1[10] = 2
+//v1[2] = true
+//console.log(v1.length)
+
+//for (let i = 0; i < v1.length; i++){
+//    console.log(v1[i])
+//}
+
+
+
+
 // == ===
 //a = 2 // atribuição
 //console.log (1 == 1) //atribuição comparada
