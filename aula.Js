@@ -1,3 +1,21 @@
+const  valores = [1, 2, 3, 4]
+const soma = valores.reduce((ac, v) => ac + v) //ac valor acumulado  o reduce faz a soma dos valores tipo soma o 1 + 2 e acumula o valor de 3 o v e o numero da vez ai na proxima soma o 3 mais o 3 e por fim o 6 mais o 4
+console.log(soma) 
+
+
+
+
+
+/** 
+const nomes = [ "ana maria", "antonio", "rodrigo", "alex", "cristina"]
+
+const res = nomes.map ((nome) => nome.charAt(0))
+console.log(res)
+
+const todosComecamComA = nomes.every(nome => nome.startsWith("A"))
+console.log(todosComecamComA)
+
+
 
 
 const nomes = [ "ana maria", "antonio", "rodrigo", "alex", "cristina"]
@@ -23,8 +41,7 @@ const nomes = [ "ana maria", "antonio", "rodrigo", "alex", "cristina"]
     }
 
 const apenasA = nomes.filter();
-
-
+*/
 //const numeros = [1, 2]
 //console.log(numeros.length)
 //numeros[4] = 2
